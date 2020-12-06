@@ -1,5 +1,5 @@
 {
-  "name": "Weber",
+  "name": "weber",
   "version": "0.1.0",
   "scripts": {
     "dev": "next",
@@ -11,7 +11,7 @@
     "axios": "^0.21.0",
     "formik": "^2.2.5",
     "mongodb": "^3.5.9",
-    "next": "latest",
+    "next": "^10.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "yup": "^0.32.1"
