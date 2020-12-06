@@ -1,0 +1,291 @@
+.header_div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 35%;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.logo_text {
+    font-family: 'Segoe UI Regular';
+    font-size: 72px;
+    letter-spacing: .04em;
+    transform: translate(25px)
+}
+
+.inquiries_section {
+    margin: 30px 20px 20px 20px;
+}
+
+.inquiry_title {
+    font-weight: normal;
+    color: var(--link);
+}
+
+.inquiry_p {
+    color: #707070;
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.contact_holder {
+    padding: 10px 0px 0px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact_blob {
+    position: absolute;
+    top: -58px;
+    right: -275px;
+    /* transform: rotate(-90deg); */
+    z-index: -1;
+}
+
+.contact_girl {
+    z-index: 2;
+    position: absolute;
+    right: -18px;
+    top: -50px;
+    width: 45px;
+}
+
+.contact_div {
+    z-index: 100 !important;
+    background: white;
+    text-align: center;
+    border: 1px solid var(--border-gray);
+    position: relative;
+    box-shadow: var(--shadow);
+    margin: 50px 20px 20px 20px;
+    padding: 20px;
+}
+
+.relative_holder {
+    position: relative;
+    margin: 0px 0px 30px 0px;
+}
+
+.error_message {
+    position: absolute;
+    bottom: -25px;
+    color: rgb(204, 70, 70);
+}
+
+.submit_button {
+    margin: 10px 0px 0px 0px;
+    padding: 15px 40px;
+    border: 0;
+    background: linear-gradient(
+        var(--stop4) 20%,
+        var(--text-blue)
+    );
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.success_girl {
+    min-width: 150px;
+    max-width: 280px;
+}
+
+.success_title {
+    color: var(--text-blue);
+    margin: 20px 0px;
+}
+
+.success_p {
+    color: var(--text-gray);
+}
+
+.or_div {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.or_label {
+    color: #c5c5c5;
+}
+
+.line {
+    width: 45%;
+    border: .5px solid #c5c5c5;
+}
+
+.email_link {
+    color: #707070 !important;
+    font-weight: 700;
+}
+
+.email_p {
+    font-size: 18px;
+    padding: 20px 20px 40px 20px;
+    color: #707070;
+}
+
+.email_link:hover {
+    color: var(--text-blue);
+}
+
+.urgent_div {
+    padding: 20px 20px 50px 20px;
+}
+
+.urgent_title {
+    font-weight: normal;
+    margin: 0px 0px 25px 0px;
+    font-size: 25px;
+}
+
+.urgent_p {
+    color: #707070;
+    font-size: 18px;
+    margin: 0px 0px 35px 0px;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+}
+
+.client_title {
+    font-size: 20px;
+    color: #707070;
+    margin: 0px 0px 5px 0px;
+}
+
+.phone_link {
+    font-size: 18px;
+    color: #707070 !important;
+    font-weight: 700;
+}
+
+.signature {
+    color: var(--text-gray);
+    padding: 5px;
+}
+
+.fixed_bottom {
+    text-align: center;
+}
+
+.second_blob {
+    display: none;
+}
+
+.hidden_blob {
+    display: none;
+}
+
+@media only screen and (min-width: 1023px) {
+    .shrink {
+        width: 60% !important;
+        margin: 0 auto;
+    }
+
+    .no_scroll {
+        position: relative;
+        overflow: hidden;
+        min-height: 100vh;
+    }
+
+    .header_div {
+        justify-content: flex-start;
+    }
+
+    .fixed_bottom {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .contact_blob {
+        display: none;
+    }
+
+    .hidden_blob {
+        display: block;
+        position: absolute;
+        top: -200px;
+        right: -350px;
+        transform: scale(1.2);
+        /* transform: rotate(-90deg); */
+        z-index: -1;
+    }
+
+    .second_blob {
+        display: block;
+        position: absolute;
+        left: -450px;
+        transform: rotate(-170deg);
+        bottom: -250px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .no_scroll {
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .row_display {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-rows: 150px 1fr;
+    }
+
+    .inquiries_section {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .other_options {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .contact_holder {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        padding: 40px 20px;
+    }
+
+    .contact_girl {
+        width: 75px;
+        right: -23px;
+        top: -80px;
+    }
+
+    .hidden_blob {
+        display: block;
+        position: absolute;
+        top: -250px;
+        right: -130px;
+        transform: scale(1.2);
+        /* transform: rotate(-90deg); */
+        z-index: -1;
+    }
+
+    .second_blob {
+        display: block;
+        position: absolute;
+        left: -300px;
+        transform: rotate(-170deg);
+        bottom: -300px;
+    }
+}

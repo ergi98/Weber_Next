@@ -1,0 +1,213 @@
+.header_div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 35%;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.logo_text {
+    font-family: 'Segoe UI Regular';
+    font-size: 72px;
+    letter-spacing: .04em;
+    transform: translate(25px)
+}
+
+.title_holder {
+    padding: 20px;
+}
+
+.small_title {
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    color: var(--text-blue);
+}
+
+.small_title::before {
+    position: absolute;
+    content: '';
+    width: 40%;
+    background: var(--text-blue);
+    border: 1px solid var(--text-blue);
+    bottom: -10px;
+}
+
+.big_title {
+    margin: 20px 0px 0px 0px;
+    color: var(--text-blue);
+}
+
+.offer_list {
+    text-align: center;
+    padding: 20px;
+}
+
+.offer:not(:first-child) {
+    margin: 40px 0px 0px 0px;
+}
+
+.offer_svg {
+    width: 150px;
+}
+
+.offer_title, .offer_p {
+    text-align: left;
+}
+
+.offer_p {
+    color: var(--text-gray);
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+    line-height: 1.7;
+}
+
+.mini_list {
+    font-size: 14px;
+    text-align: left;
+    margin: 15px 0px 0px 15px;
+    line-height: 1.7;
+    color: var(--text-blue);
+}
+
+.mini_list li {
+    position: relative;
+}
+
+.mini_list li::before {
+    content: "\00BB";
+    position: absolute;
+    left: -15px;
+}
+
+.teamwork_holder {
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+    background-image: url('../public/assets/images/office.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; 
+}
+
+.dark_bg {
+    padding: 20px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+} 
+
+.teamwork_title {
+    color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+}
+
+.teamwork_title::before {
+    position: absolute;
+    content: '';
+    width: 40%;
+    background: white;
+    border: 1px solid white;
+    bottom: -10px;
+}
+
+.teamwork_big_title {
+    color: white;
+    margin: 20px 0px 0px 0px;
+}
+
+.teamwork_p {
+    color: white;
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+    line-height: 1.7;
+}
+
+.our_values {
+    padding: 20px 20px 80px 20px;
+}
+
+.value {
+    text-align: center;
+}
+
+.value:not(:first-child) {
+    margin: 40px 0px 0px 0px;
+}
+
+.offer_desc {
+    text-align: left;
+    margin: 15px 0px 0px 0px;
+    font-size: 12px;
+    color: var(--text-blue);
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 630px) {
+    .big_title {
+        font-size: 45px;
+    }
+
+    .small_title {
+        font-size: 18px;
+    }
+
+    .offer_list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .offer {
+        padding: 15px;
+        margin: 0 !important;
+    }
+
+    .value {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .offer_svg {
+        width: 40%;
+        max-width: 200px;
+    }
+
+    .offer_p {
+        max-width: 350px;
+    }
+
+    .value div {
+        width: fit-content
+    }
+}
+
+
+@media only screen and (min-width: 1000px) { 
+    .header_div {
+        justify-content: flex-start;
+    }
+
+    .header_div, .title_holder, .offer_list, .our_values {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .teamwork_holder {
+        padding: 100px 20px;
+    }
+    .dark_bg {
+        width: fit-content;
+        margin: 0 auto;
+    }
+    
+    .teamwork_p {
+        max-width: 350px;
+    }
+}

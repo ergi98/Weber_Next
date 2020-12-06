@@ -1,0 +1,73 @@
+.my_input, .my_textarea {
+    border: 0;
+    background: transparent;
+    font: 15px/24px 'Segoe UI Regular', sans-serif; 
+    color: var(--text-gray); 
+    width: 100%; 
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+}
+
+.my_input:focus, .my_textarea:focus {
+    outline: none;
+}
+
+.input_holder {
+    position: relative;
+    padding: 15px 20px;
+    border: .5px solid var(--text-gray)
+}
+
+.input_holder:not(:last-child) {
+    margin: 0px 0px 25px 0px;
+}
+
+.effect ~ .focus_border:before,
+.effect ~ .focus_border:after {
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 0; 
+    height: 2px; 
+    background: var(--stop4); 
+    transition: 0.3s;
+}
+
+.effect ~ .focus_border:after {
+    top: auto; 
+    bottom: 0; 
+    left: auto; 
+    right: 0;
+}
+
+.effect ~ .focus_border i:before,
+.effect ~ .focus_border i:after { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 2px; 
+    height: 0; 
+    background: var(--stop4); 
+    transition: 0.4s;
+}
+
+.effect ~ .focus_border i:after { 
+    left: auto; 
+    right: 0; 
+    top: auto; 
+    bottom: 0;
+}
+
+.effect:focus ~ .focus_border:before,
+.effect:focus ~ .focus_border:after {
+    width: 100%; 
+    transition: 0.3s;
+}
+
+.effect:focus ~ .focus_border i:before,
+.effect:focus ~ .focus_border i:after {
+    height: 100%; 
+    transition: 0.4s;
+}

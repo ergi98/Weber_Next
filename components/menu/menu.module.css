@@ -1,0 +1,166 @@
+
+.side_nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow: hidden;
+    padding: 80px 0px 0px 0px;
+    transition: 0.5s;
+}
+
+.opened {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow: hidden;
+    padding: 80px 0px 0px 0px;
+    transition: 0.5s;
+}
+
+.close_button {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.close_icon {
+    width: 20px;
+    fill: white;
+}
+
+.menu_links {
+    padding: 20px 50px;
+}
+
+.menu_item, .light_item {
+    font-size: 20px;
+    margin: 0px 0px 60px 0px;
+}
+
+.menu_item:hover, .light_item:hover {
+    color: white;
+}
+
+.active_link, .light_active {
+    font-weight: 700;
+    position: relative;
+}
+
+.active_link::before, .light_active::before {
+    content: '';
+    width: 70%;
+    height: 0px;
+    background: var(--text-blue);
+    border: 2px solid var(--text-blue);
+    position: absolute;
+    bottom: -10px;
+}
+
+.link, .active_link, .light_link, .light_active {
+    width: 100%;
+    padding: 0 100% 0 0;
+}
+
+.link:hover, .active_link:hover, .light_link:hover, .light_active:hover {
+    color: var(--stop4);
+}
+
+.link:visited, .light_link:visited {
+    color: white;
+}
+
+.menu_burger {
+    width: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    .menu_burger, .close_button {
+        display: none;
+    }
+
+    .side_nav, .opened {
+        padding: 0;
+        height: fit-content;
+        flex-grow: 1;
+        position: relative;
+        background: transparent !important;
+    }
+
+    .menu_links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .link, .active_link {
+        color: var(--text-gray) !important;
+        padding: 0;
+    }
+
+    .light_link {
+        padding: 0;
+    }
+
+    .light_link {
+        color: var(--text-gray) !important;
+        font-weight: normal;
+        padding: 0;
+    }
+
+    .light_link:hover {
+        color: white !important;
+        font-weight : normal;
+        transition: 0.2s;
+    }
+
+    .link:hover, .active_link:hover {
+        color: var(--stop2) !important;
+        transition: 0.2s;
+    }
+
+    .light_active::before {
+        content: '';
+        width: 70%;
+        height: 0px;
+        background: white;
+        border: 2px solid white;
+        position: absolute;
+        bottom: -10px;
+    }
+
+    .menu_item, .light_item {
+        margin: 0;
+    }
+
+    .active_link {
+        color: var(--stop2) !important;
+    }
+
+    .light_active {
+        color: white !important;
+    }
+
+    .active_link::before, .light_active::before {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1023px) { 
+    .side_nav, .opened {
+        max-width: 70%;
+    }  
+
+    .menu_links {
+        padding: 20px;
+    }
+}

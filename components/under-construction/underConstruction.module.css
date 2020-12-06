@@ -1,0 +1,87 @@
+.max_height {
+    min-height: 100vh;
+    position: relative;
+}
+
+.logo_holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 35%;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.logo_text {
+    font-family: 'Segoe UI Regular';
+    font-size: 72px;
+    letter-spacing: .04em;
+    transform: translate(25px)
+}
+
+.construction {
+    text-align: center;
+    padding: 20px;
+    margin: 0px 0px 50px 0px;
+}
+
+.construction_title {
+    text-align: left;
+    margin: 40px 0px 20px 0px;
+    color: var(--text-blue);
+}
+
+.construction_desc {
+    text-align: left;
+    color: var(--text-gray);
+}
+
+.image {
+    max-width: 400px;
+}
+
+@media only screen and (max-width: 281px) { 
+    .construction_title {
+        font-size: 20px;
+    }
+
+    .construction_desc {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) { 
+    .construction {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image {
+        margin: 0px 20px 0px 0px;
+    }
+
+    .footer_holder {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .construction {
+        margin: 10% 0 0 0   ;
+    }
+    .content {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .logo_holder {
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,130 @@
+:root {
+    --border-gray: #e7e7e7;
+    --text-gray: #8d8d8d;
+    --light-blue: #badff8;
+    --text-blue: #306385;
+    --link: #353535;
+    --stop1: #041b2b;
+    --stop2: #154465;
+    --stop3: #24628b;
+    --stop4: #45a3e2;
+    --button-start: #61dd61;
+    --button-stop: #349134; 
+    --shadow: 
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 5.5px 5px rgba(0, 0, 0, 0.06),
+      0 5.3px 5.9px rgba(0, 0, 0, 0.072),
+      0 5.8px 5.4px rgba(0, 0, 0, 0.086),
+      0 10px 10px rgba(0, 0, 0, 0.12)
+  }
+  
+  @font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('../public/fonts/Segoe_UI.woff') format('woff');
+    font-display: swap;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI Regular';
+  }
+  
+  body, html {
+    min-height: 100vh;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--stop3);
+    border-radius: 0 0 20px 20px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover, a:hover .social_icons  {
+    color: var(--stop1);
+    fill: var(--stop1);
+  }
+  
+  ._illustration {
+    margin: 0 auto 15px auto;
+    width: 60%;
+  }
+  
+  ._center {
+    text-align: center;
+  }
+  
+  ._column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ._shadow {
+    box-shadow: var(--shadow);
+  }
+  
+  ._small_icon {
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 0 auto;
+    height: 45px;
+    fill: linear-gradient(var(--stop1), var(--stop4))
+  }
+  
+  @media only screen and (min-width: 1180px) {
+    ._row {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+  }
+  
+  .loader_holder {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid var(--text-blue);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+  }
+  
+  .small_loader {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid var(--text-blue);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    animation: spin 2s linear infinite;
+  }
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

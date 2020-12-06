@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 96">
+  <defs/>
+  <g fill="none" stroke="#45a3e2" stroke-width="5">
+    <path stroke="none" d="M0 0h179v96H0z"/>
+    <path d="M2.5 2.5h174v91H2.5z"/>
+  </g>
+  <text fill="#fff" font-family="SegoeUI, Segoe UI" font-size="72" letter-spacing=".04em" transform="translate(25)">
+    <tspan x="0" y="78">WEBER</tspan>
+  </text>
+</svg>
