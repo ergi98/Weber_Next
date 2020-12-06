@@ -489,8 +489,9 @@
     }
 
     .item_list {
-        margin: 0 20px;
+        margin: 0 auto;
         flex-wrap: nowrap;
+        width: fit-content;
         box-shadow: var(--shadow);
     }
 

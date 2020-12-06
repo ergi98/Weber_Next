@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" href="../public/favicon.ico" />
+        <link rel="icon" href="../favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="google-site-verification" content="WOGUalplDuCjzI9CkM7nSUnHMFJrmYUinVYK_nM5NeY" />
@@ -18,10 +18,10 @@ export default function Home() {
           name="description"
           content="Become part of an ever expanding online market. Build you company website today!"
         />
-        <link rel="apple-touch-icon" href="../public/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="../public/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="../public/favicon-16x16.png" />
-        <link rel="manifest" href="../public/manifest.json" />
+        <link rel="apple-touch-icon" href="../apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png" />
+        <link rel="manifest" href="../manifest.json" />
         <title>Weber</title>
       </Head>
 
