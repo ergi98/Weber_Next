@@ -225,7 +225,7 @@
     .second_blob {
         display: block;
         position: absolute;
-        left: -470px;
+        left: -450px;
         transform: rotate(-170deg);
         bottom: -250px;
     }
@@ -285,7 +285,7 @@
     .second_blob {
         display: block;
         position: absolute;
-        left: -300px;
+        left: -330px;
         transform: rotate(-170deg);
         bottom: -300px;
     }
