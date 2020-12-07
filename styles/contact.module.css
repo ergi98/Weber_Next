@@ -240,6 +240,7 @@
     }
 
     .row_display {
+        margin-top: -20px;
         display: grid;
         grid-template-columns: 1fr 1fr 2fr;
         grid-template-rows: 150px 1fr;

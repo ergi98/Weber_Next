@@ -203,9 +203,6 @@ export default function About() {
                     </div>
                     <img src='../assets/blobs/blob_1.svg' className={styles.second_blob} alt='' />
                 </div>
-                <div className={styles.fixed_bottom}>
-                    <label className={styles.signature}>© 2020 - 2024 WEBER, INC.</label>
-                </div>
             </main>
         </>
     )
