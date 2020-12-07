@@ -1,27 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+  <url>
     <loc>https://weber-soft.herokuapp.com</loc>
-    <lastmod>2020-12-07T08:19:46.858Z</lastmod>
-  </sitemap>
-  <sitemap>
+    <lastmod>2020-12-07</lastmod>
+  </url>
+  <url>
     <loc>https://weber-soft.herokuapp.com/about</loc>
-    <lastmod>2020-12-07T08:19:46.858Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://weber-soft.herokuapp.com/contact</loc>
-    <lastmod>2020-12-07T08:19:46.858Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://weber-soft.herokuapp.com/tos</loc>
-    <lastmod>2020-12-07T08:19:46.858Z</lastmod>
-  </sitemap>
-  <sitemap>
+    <lastmod>2020-12-07</lastmod>
+  </url>
+  <url>
     <loc>https://weber-soft.herokuapp.com/careers</loc>
-    <lastmod>2020-12-07T08:19:46.858Z</lastmod>
-  </sitemap>
-  <sitemap>
+    <lastmod>2020-12-07</lastmod>
+  </url>
+  <url>
+    <loc>https://weber-soft.herokuapp.com/tos</loc>
+    <lastmod>2020-12-07</lastmod>
+  </url>
+  <url>
     <loc>https://weber-soft.herokuapp.com/privacy</loc>
-    <lastmod>2020-12-03T08:19:46.858Z</lastmod>
-  </sitemap>
-</sitemapindex>
+    <lastmod>2020-12-07</lastmod>
+  </url>
+</urlset>
