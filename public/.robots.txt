@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Host: https://weber-soft.herokuapp.com
+Sitemap: https://weber-soft.herokuapp.com/sitemap.xml
