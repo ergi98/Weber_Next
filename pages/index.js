@@ -145,10 +145,9 @@ export default function Home() {
                 </svg>
               </div>
               <div className={styles.text}>
-                <h1 className={styles.main_title} id='main_title'>Expand your business<br />With our services</h1>
+                <h1 className={styles.main_title} id='main_title'>We build the website<br />Your business always needed</h1>
                 <p>
-                  We have helped many business with their online presence.
-                  Be part of our growing family.
+                  Professional, responsive websites for your business!
                   Let us give you the exposure your business deserves!
                                 </p>
               </div>
