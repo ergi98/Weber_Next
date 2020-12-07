@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://weber-soft.herokuapp.com</loc>
+    <lastmod>2020-12-07T08:19:46.858Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://weber-soft.herokuapp.com/about</loc>
+    <lastmod>2020-12-07T08:19:46.858Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://weber-soft.herokuapp.com/contact</loc>
+    <lastmod>2020-12-07T08:19:46.858Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://weber-soft.herokuapp.com/tos</loc>
+    <lastmod>2020-12-07T08:19:46.858Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://weber-soft.herokuapp.com/careers</loc>
+    <lastmod>2020-12-07T08:19:46.858Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://weber-soft.herokuapp.com/privacy</loc>
+    <lastmod>2020-12-03T08:19:46.858Z</lastmod>
+  </sitemap>
+</sitemapindex>
