@@ -7,7 +7,7 @@ function Footer() {
             <div className={styles.footer_content}>
                 <ul className={styles.footer_list}>
                     <li className={styles.footer_title}>Contact</li>
-                    <li className={styles.footer_item}>Phone: <a href='tel:+355206994647'>+355 20 699 4647</a></li>
+                    <li className={styles.footer_item}>Phone: <a href='tel:+355676993783'>+355 67 699 3783</a></li>
                     <li className={styles.footer_item}>Email: <a href="mailto: webersoftal@gmail.com">webersoftal@gmail.com</a></li>
                 </ul>
                 <ul className={styles.footer_list}>
@@ -63,7 +63,6 @@ function Footer() {
                         </a>
                     </li> */}
                     </ul>
-
                 </ul>
             </div>
             <div className={styles.signature}>&#169; 2020 - 2024 WEBER, INC.</div>
