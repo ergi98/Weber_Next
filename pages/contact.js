@@ -186,7 +186,7 @@ export default function About() {
 
                             <p className={styles.email_p}>
                                 Send us an email at
-                        <a href='mailto: webersoftal@gmail.com' className={styles.email_link}>webersoftal@gmail.com</a>.
+                        <a href='mailto:webersoftal@gmail.com' className={styles.email_link}>webersoftal@gmail.com</a>.
                     </p>
 
                             <div className={styles.urgent_div}>
